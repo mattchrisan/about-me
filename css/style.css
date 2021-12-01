@@ -1,0 +1,25 @@
+* {
+  background-color: lightslategray;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  background-color: lightblue;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+footer {
+  text-align: center;
+  color: red;
+}
+
+p {
+  color: rgba(46, 43, 194, 0.986);
+  text-align: center;
+  font-size: 25px;
+  font-style: oblique;
+}
