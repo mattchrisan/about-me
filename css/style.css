@@ -1,5 +1,5 @@
 * {
-  background-color: lightslategray;
+  background-color: rgb(229, 232, 235);
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
 
 footer {
   text-align: center;
-  color: red;
+  color: rgb(34, 162, 212);
 }
 
 p {
@@ -22,4 +22,9 @@ p {
   text-align: center;
   font-size: 25px;
   font-style: oblique;
+}
+
+ul {
+  font-size: 25px;
+  color:#2552f8;
 }

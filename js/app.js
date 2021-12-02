@@ -57,4 +57,60 @@ if (videogames === 'yes' || videogames === 'y') {
   alert('Sweet, I do to!');
 }
 
+//guessing game for how old am I with 4 guess attempts
+
+function guessingGame(){
+  let attempts = 4;
+  for(let i = 0; i <= attempts; i++){
+  let userAnswer = prompt('Guess how old I am?');
+  let correctAnswer = 36;
+
+    // while(userAnswer < 1 || userAnswer > 100){
+      // userAnswer = prompt('Sorry not my age try again');
+    
+    if (userAnswer === correctAnswer){
+      alert('Congratulations!  You are correct and also the next contestant on the price is right!');
+      // document.write("Winner");
+      break;
+    } else if (userAnswer > correctAnswer){
+        alert('Too high try again!');
+        // userAnswer = prompt('Ah Ah Ah, you didnt guess the magic number!  Too high try again!');
+    } else if (userAnswer < correctAnswer){
+        alert('Too low try again!');
+        // userAnswer = prompt('Ah Ah Ah, you didnt guess the magic number!  Too low try again!');
+    }
+    if(i === attempts){
+      alert('The correct answer was ' + correctAnswer);
+      // document.write("Sorry Try Again Next Time");
+  }
+// }
+}
+}
+guessingGame()
+
+function favoriteMovies(){
+  let attempts = 6;
+  for(let i = 0; i <= attempts; i++){
+    let userAnswer = prompt('Guess what my favorite movies are?');
+    let movies = ['Batman', 'Hitch', 'Matrix']
+      
+      if (userAnswer === movies){
+        alert('Congratulations!  You are correct and also the next contestant on the price is right!');
+        break;
+      } else if (userAnswer > movies){
+          alert('Sorry try again!');
+      } else if (userAnswer < movies){
+          alert('Sorry try again!');
+      }
+      if(i === attempts){
+        alert('The correct answer was ' + movies);
+    }
+  }
+  }
+  favoriteMovies()
+  
+
+
+
+
 alert('Thank you for visiting ' + userName);
