@@ -104,10 +104,14 @@ function favoriteMovies(){
       }
       if(i === attempts){
         alert('The correct answer was ' + movies);
+      }
     }
-  }
+    let ending = alert('Well done ' + userName  Thanks for playing my game!  You got ${counter} / 7!);
+
+    // let ending = alert(`Well done ${userName})! Thanks for playing my game!  You got ${counter} / 7!`);
   }
   favoriteMovies()
+
   
 
 
