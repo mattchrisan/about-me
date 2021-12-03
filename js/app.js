@@ -43,7 +43,7 @@ if (cars === 'YES' || cars === 'Y') {
 
 let hawks = prompt('Are you a hawks fan?').toUpperCase();
 
-// console.log('Awesome, me too!');
+console.log('Awesome, me too!');
 
 if (hawks === 'YES' || hawks === 'Y') {
   alert('Awesome, me too!');
@@ -67,9 +67,9 @@ function guessingGame(){
 
     // while(userAnswer < 1 || userAnswer > 100){
       // userAnswer = prompt('Sorry not my age try again');
-    
-    if (userAnswer === correctAnswer){
-      alert('Congratulations!  You are correct and also the next contestant on the price is right!');
+   console.log() 
+    if (userAnswer == correctAnswer){
+      alert('Congratulations! You are correct and also the next contestant on the price is right!');
       // document.write("Winner");
       break;
     } else if (userAnswer > correctAnswer){
@@ -79,7 +79,7 @@ function guessingGame(){
         alert('Too low try again!');
         // userAnswer = prompt('Ah Ah Ah, you didnt guess the magic number!  Too low try again!');
     }
-    if(i === attempts){
+    if(i == attempts){
       alert('The correct answer was ' + correctAnswer);
       // document.write("Sorry Try Again Next Time");
   }
@@ -92,9 +92,9 @@ function favoriteMovies(){
   let attempts = 6;
   for(let i = 0; i <= attempts; i++){
     let userAnswer = prompt('Guess what my favorite movies are?');
-    let movies = ['Batman', 'Hitch', 'Matrix']
+    let movies = ['Batman', 'Hitch', 'Matrix'];
       
-      if (userAnswer === movies){
+      if (userAnswer == movies[0],[1],[2]){
         alert('Congratulations!  You are correct and also the next contestant on the price is right!');
         break;
       } else if (userAnswer > movies){
